@@ -7,9 +7,9 @@
   Ứng dụng hỗ trợ người bị bệnh câm
 </p>
 <h2>Hướng dẫn sử dụng</h2>
-<p>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kJz_eCHDy7s?si=17h3QB_fVPl5a2fv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
+
 
 <h2>Built With 🛠</h2>
 <ul style="list-style: none; padding-left: 0;">
