@@ -6,9 +6,10 @@
 <p style="text-align: center;">
   Ứng dụng hỗ trợ người bị bệnh câm
 </p>
-<h2>Hướng dẫn sử dụng</h2>
+<h2>YOUTUBE OVERVIEW</h2>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/kJz_eCHDy7s/0.jpg)](https://www.youtube.com/watch?v=kJz_eCHDy7s)
+.[![SFM App](https://img.youtube.com/vi/kJz_eCHDy7s/0.jpg)](https://www.youtube.com/watch?v=kJz_eCHDy7s)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kJz_eCHDy7s?si=wf4MiWgq0qqwXUAm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <h2>Built With 🛠</h2>
 <ul style="list-style: none; padding-left: 0;">
   <li>- Java</li>
