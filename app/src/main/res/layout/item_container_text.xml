@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_100sdp"
+    android:padding="@dimen/_3sdp"
+    android:layout_height="@dimen/_150sdp"
+    android:gravity="center"
+>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="@dimen/_30sdp"
+        android:elevation="@dimen/_30sdp"
+        android:id="@+id/cardview"
+        android:layout_height="match_parent"
+     >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/catk">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_marginBottom="@dimen/_27sdp"
+                android:layout_marginLeft="@dimen/_13sdp"
+                android:layout_marginRight="@dimen/_13sdp"
+                android:ellipsize="end"
+                android:fontFamily="@font/latomedium"
+                android:text="Tớ đã nói với cậu bao nhiêu lần là tớ không thích rồi cậu đừng làm thế được không? thì sao "
+                android:textColor="#21837A"
+                android:textSize="@dimen/_10sdp"
+                android:marqueeRepeatLimit="marquee_forever"
+android:lines="6"
+                android:gravity="center"
+                android:textStyle="bold" />
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:visibility="gone"
+                android:background="@drawable/pawprint"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center_horizontal"
+                />
+        </FrameLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

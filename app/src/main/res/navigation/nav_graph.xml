@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashfragment">
+
+    <fragment
+        android:id="@+id/tab0Fragment"
+        android:name="com.cap.sfm.fragments.Tab0Fragment"
+        android:label="Tab0Fragment" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/tab1Fragment"
+        android:name="com.cap.sfm.fragments.Tab1Fragment"
+        android:label="Tab1Fragment" >
+        <action
+            android:id="@+id/action_tab1Fragment_to_textInListTTSFragment"
+            app:destination="@id/textInListTTSFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/textInListTTSFragment"
+        android:name="com.cap.sfm.fragments.TextInListTTSFragment"
+        android:label="TextInListTTSFragment" >
+        <action
+            android:id="@+id/action_textInListTTSFragment_to_tab1Fragment"
+            app:destination="@id/tab1Fragment"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            app:popUpTo="@id/tab0Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tab2Fragment"
+        android:name="com.cap.sfm.fragments.Tab2Fragment"
+        android:label="Tab2Fragment" />
+    <fragment
+        android:id="@+id/viewpagerFragment"
+        android:name="com.cap.sfm.screeen.ViewpagerFragment"
+        android:label="ViewpagerFragment" >
+        <action
+            android:id="@+id/action_viewpagerFragment_to_tab0Fragment"
+            app:destination="@id/tab0Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+
+            app:popUpTo="@id/viewpagerFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashfragment"
+        android:name="com.cap.sfm.screeen.splashfragment"
+        android:label="splashfragment" >
+        <action
+            android:id="@+id/action_splashfragment_to_viewpagerFragment"
+            app:destination="@id/viewpagerFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:popUpTo="@id/splashfragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashfragment_to_tab0Fragment"
+
+            app:destination="@id/tab0Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/splashfragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

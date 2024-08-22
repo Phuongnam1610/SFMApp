@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/tab0Fragment"
+        android:icon="@drawable/ic_baseline_playlist_play_24"
+        android:title="Playlist" />
+    <item
+        android:id="@+id/tab1Fragment"
+        android:icon="@drawable/ic_tab_1"
+        android:title="Home" />
+    <item
+        android:id="@+id/tab2Fragment"
+        android:icon="@drawable/ic_tab_2"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/bottomsheet"
+        android:icon="@drawable/ic_settings_svgrepo_com"
+        android:title="Setting" />
+</menu>

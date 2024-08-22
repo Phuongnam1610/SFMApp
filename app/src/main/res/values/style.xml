@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="You.EditText.Style" parent="@android:style/Widget.EditText">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:ellipsize">end</item>
+        <item name="paddingStart">0dp</item>
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_vertical"-->
+<!--        android:layout_marginStart="@dimen/_30sdp"-->
+<!--        android:background="@null"-->
+<!--        android:ellipsize="end"-->
+<!--        android:inputType="text"-->
+<!--        android:clickable="false"-->
+<!--        android:singleLine="true"-->
+    </style>
+
+</resources>
